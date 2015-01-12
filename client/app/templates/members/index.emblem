@@ -1,0 +1,10 @@
+h2 Members
+
+ul
+  each member in model
+    li
+      link-to 'member' member
+        member.firstName
+  else
+    p There are no members.
+

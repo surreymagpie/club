@@ -1,3 +1,8 @@
 h2#title Welcome to Ember.js
 
+ul
+  li= link-to 'Home' 'index'
+  li= link-to 'Members' 'members'
+
+hr
 = outlet
