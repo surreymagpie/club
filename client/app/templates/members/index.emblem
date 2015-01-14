@@ -8,3 +8,4 @@ ul
   else
     p There are no members.
 
+= outlet
