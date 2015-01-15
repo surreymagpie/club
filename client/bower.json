@@ -13,6 +13,7 @@
     "ember-qunit": "0.1.8",
     "ember-qunit-notifications": "0.0.4",
     "qunit": "~1.15.0",
-    "normalize-scss": "3.0.2"
+    "normalize-scss": "3.0.2",
+    "modernizr": "~2.8.3"
   }
 }
