@@ -1,0 +1,12 @@
+body > .ember-view {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  margin: 0 1.5rem;
+  flex: 1 0 auto;
+}
+
+

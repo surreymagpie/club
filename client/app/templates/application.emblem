@@ -1,8 +1,23 @@
-h2#title Welcome to Ember.js
+header.site-header
+  / .container
+  .brand
+    = link-to 'index'
+      img class="logo" src="assets/images/ranelagh.svg"
+      hgroup
+        h1.name Ranelagh Harriers
+        h3.tagline Richmond's Running Club
+  nav.main-nav role="navigation"
+    ul.menu-items
+      li.menu-item = link-to 'Members' 'members' class="menu-link"
+      li.menu-item: a class="menu-link" href="#" About us
+      li.menu-item: a class="menu-link" href="#" Races
+      li.menu-item: a class="menu-link" href="#" News
+      li.menu-item: a class="menu-link" href="#" Stats
+      li.menu-item: a class="menu-link" href="#" Training
+      li.menu-item: a class="menu-link" href="#" Galleries
 
-ul
-  li= link-to 'Home' 'index'
-  li= link-to 'Members' 'members'
+main.content
+  = outlet
 
-hr
-= outlet
+footer.site-footer
+  .copyright &copy; 2015 Ranelagh Harriers Running Club
