@@ -1,0 +1,16 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  color: $primaryTextColor;
+  line-height: 1.5;
+  font-family: $fontFamily;
+}
+
+* {
+box-sizing: border-box;
+}
+
+@import 'elements';
