@@ -1,11 +1,19 @@
-h2 Members
+h2 Club Members
 
-ul
+table
+  thead
+    tr
+      th.cell_left Full Name
+      th Gender
+      th Age
+      th Category
+
+  tbody
   each member in model
-    li
-      link-to 'member' member
-        member.firstName
-  else
-    p There are no members.
+    tr
+      td.cell_left = link-to member.fullName 'member' member.id
+      td = member.gender
+      td = member.age
+      td = member.ageCategory
 
 = outlet

@@ -1,0 +1,29 @@
+table {
+  width: 100%;
+  margin-bottom: 2 * $padding;
+  color: $secondaryTextColor;
+}
+
+thead {
+  background: $lightPrimaryColor;
+  color: white;
+}
+
+tr {
+  &:nth-child(even) {
+    background: #eee;
+  }
+  &:hover {
+    color: #000;
+  }
+}
+
+th,
+td {
+  text-align: center;
+  padding: 0.25em;
+}
+
+.cell_left {
+  text-align: left;
+}

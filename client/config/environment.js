@@ -21,7 +21,7 @@ module.exports = function(environment) {
           'script-src': "'self' 'unsafe-eval'",
           'font-src': "'self' http://fonts.gstatic.com",
           'connect-src': "'self' localhost:3000",
-          'style-src': "'self' fonts.googleapis.com"
+          'style-src': "'self' 'unsafe-inline' fonts.googleapis.com"
         }
   };
 
