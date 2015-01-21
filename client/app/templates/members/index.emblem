@@ -11,7 +11,7 @@ table
   tbody
   each member in model
     tr
-      td.cell_left = link-to member.fullName 'member' member.id
+      td.cell_left = link-to member.fullName 'members.show' member.id
       td = member.gender
       td = member.age
       td = member.ageCategory
